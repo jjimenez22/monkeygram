@@ -3,12 +3,13 @@ import styled from 'styled-components'
 
 const StyledMain = styled.main`
             padding: 12px;
-            background: antiquewhite;
-`
+            article p {
+              margin-top: 0;
+            }
+        `
 
 const Main = () => (
     <StyledMain>
-        <h2>Monkeyblogs</h2>
         <article>
             <h4>Monkeytitle</h4>
             <p>Some awesome monkey content! BANANAS! BANANAS! BANANAS! BANANAS! BANANAS! BANANAS! BANANAS! </p>
