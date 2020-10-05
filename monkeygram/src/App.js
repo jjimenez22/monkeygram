@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import Header from "./header";
 import Nav from "./nav";
-import Main from "./main";
+import MainContainer from "./main/main.container";
 import Footer from "./footer";
 import styled, {createGlobalStyle} from 'styled-components'
 
@@ -19,7 +19,7 @@ const App = () => (
     <>
         <GlobalStyle/>
         <Header/>
-        <Main/>
+        <MainContainer/>
     </>
 )
 
