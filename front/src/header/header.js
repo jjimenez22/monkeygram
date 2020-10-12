@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineMessage, AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineBell, AiOutlineSearch } from 'react-icons/ai'
 
 import { StyledHeader, StyledLogoContainer, StyledNavbar } from './header.style'
 
@@ -11,7 +11,7 @@ const Header = () => (
         </StyledLogoContainer>
         <StyledNavbar>
             <button><AiOutlineSearch/></button>
-            <button><AiOutlineMessage/></button>
+            <button><AiOutlineBell/></button>
             <div>
                 <img
                     src="https://images.pexels.com/photos/39571/gorilla-silverback-animal-silvery-grey-39571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
