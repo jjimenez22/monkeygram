@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
         body, h1, h2, h3, h4 {
             margin: 0;
         }
+        #root {
+          max-width: 1200px;
+          margin: auto;
+        }
 `
 
 const App = () => (
