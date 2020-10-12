@@ -6,6 +6,11 @@ const StyledMain = styled.main`
             article p {
               margin-top: 0;
             }
+            background: yellow;
+            
+            @media screen and (max-width: 800px) {
+              
+            }
         `
 
 const MainComponent = (props) => {

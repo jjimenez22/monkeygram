@@ -1,6 +1,6 @@
 import React from 'react';
 import MainComponent from "./main.component";
-import articleClient from '../client/article.client'
+import articleClient from '../clients/article.client'
 
 class MainContainer extends React.Component {
     constructor(props) {

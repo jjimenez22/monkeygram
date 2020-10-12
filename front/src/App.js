@@ -1,9 +1,7 @@
-import React, {Fragment} from 'react';
-import Header from "./header";
-import Nav from "./nav";
+import React from 'react';
+import Header from "./header/header";
 import MainContainer from "./main/main.container";
-import Footer from "./footer";
-import styled, {createGlobalStyle} from 'styled-components'
+import {createGlobalStyle} from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
         body {
